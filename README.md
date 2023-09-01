@@ -2,6 +2,7 @@
 
 - [x] Criar um projeto
 - [x] Criar um repositório
+- [x] Configurar sistema de arquivos e aliases
 - [ ] Configurar o ESLint
 - [ ] Criar um arquivo de estilização global
 - [ ] Criar uma estilização para textos
