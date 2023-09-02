@@ -1,4 +1,59 @@
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/Inter-Thin.ttf");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/Inter-ExtraLight.ttf");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/Inter-Light.ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/Inter-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/Inter-Medium.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/Inter-SemiBold.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/Inter-Bold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/Inter-ExtraBold.ttf");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/Inter-Black.ttf");
+  font-weight: 900;
+}
+
 * {
+  font-family: "Inter", sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -130,3 +185,58 @@ body {
   }
 }
 
+h1 {
+  font-size: 4rem; // 64px
+  line-height: 4.5rem; // 72px
+  font-weight: 700; // bold
+}
+
+h2 {
+  font-size: 3rem; // 48px
+  line-height: 3.5rem; // 56px
+  font-weight: 700; // bold
+}
+
+h3 {
+  font-size: 3rem; // 48px
+  line-height: 2.5rem; // 40px
+  font-weight: 700; // bold
+}
+
+h4 {
+  font-size: 2rem; // 32px
+  line-height: 2.5rem; // 40px
+}
+
+h5 {
+  font-size: 1.5rem; // 24px
+  line-height: 2rem; // 32px
+}
+
+h6 {
+  font-size: 1rem; // 16px
+  line-height: 1.5rem; // 24px
+}
+
+p {
+  font-size: var(--body-fs-large);
+  line-height: var(--body-ln-large);
+  color: var(--text-body-color);
+  font-weight: var(--font-weight-normal);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--text-title-color);
+}
+
+@media (max-width: 768px) {
+  html,
+  body {
+    font-size: 14px;
+  }
+}
