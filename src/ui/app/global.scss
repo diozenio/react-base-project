@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Font sizes */
+  --body-fs-large: 1.125rem; // 18px
+  --body-fs-medium: 1rem; // 16px
+  --body-fs-small: 0.875rem; // 14px
+  --body-fs-xsmall: 0.75rem; // 12px
+
+  /* Line heights */
+  --body-ln-large: 2rem; // 32px
+  --body-ln-medium: 1.75rem; // 28px
+  --body-ln-small: 1.625rem; // 26px
+  --body-ln-xsmall: 1.5rem; // 24px
+
+  /* Font weights */
+  --font-weight-thin: 100;
+  --font-weight-extralight: 200;
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-xxl: 32px;
+  --radius-round: 50%;
+
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-48: 48px;
+  --spacing-56: 56px;
+  --spacing-64: 64px;
+  --spacing-72: 72px;
+  --spacing-80: 80px;
+  --spacing-96: 96px;
+
+  /* Colors */
+  /* Blue Rocket */
+  --color-blue-800: hsl(249, 100%, 27%);
+  --color-blue-700: hsl(250, 100%, 35%);
+  --color-blue-600: hsl(249, 92%, 52%);
+  --color-blue-500: hsl(244, 92%, 63%);
+  --color-blue-400: hsl(248, 100%, 71%);
+  --color-blue-300: hsl(241, 89%, 79%);
+  --color-blue-200: hsl(241, 89%, 89%);
+  --color-blue-100: hsl(242, 88%, 94%);
+  --color-blue-50: hsl(246, 100%, 98%);
+
+  /* White */
+  --color-white: hsl(0, 0%, 100%);
+
+  /* Gray Scale */
+  --color-gray-100: #1c1c1c; // used mainly for titles and bold text.
+  --color-gray-200: #575757; // used primarily for body text.
+  --color-gray-300: #969696; // widely used for small text and to fill icons.
+  --color-gray-400: #e8e8e8; // used for small details such as borders, dividers and line colors.
+  --color-gray-500: #f7f7f7; // used for background secondary
+  --color-gray-600: #ffffff; // used for background primary
+
+  /* Image Default */
+  --color-image-default: hsl(0, 0%, 86%);
+
+  /* Yellow */
+  --color-chewie-900: hsl(40, 100%, 50%);
+  --color-chewie-800: hsl(40, 100%, 65%);
+  --color-chewie-700: hsl(40, 88%, 70%);
+  --color-chewie-600: hsl(40, 90%, 80%);
+
+  /* Red */
+  --color-maul-900: hsl(0, 100%, 50%);
+  --color-maul-800: hsl(0, 100%, 62%);
+  --color-maul-700: hsl(0, 100%, 70%);
+  --color-maul-600: hsl(0, 100%, 80%);
+
+  /* Green */
+  --color-yoda-900: hsl(129, 85%, 38%);
+  --color-yoda-800: hsl(115, 47%, 50%);
+  --color-yoda-700: hsl(115, 43%, 67%);
+  --color-yoda-600: hsl(122, 43%, 83%);
+
+  --color-primary: var(--color-blue-500);
+  --color-primary-light: var(--color-blue-400);
+  --color-primary-dark: var(--color-blue-600);
+
+  --text-title-color: var(--color-gray-100);
+  --text-body-color: var(--color-gray-200);
+  --text-small-color: var(--color-gray-300);
+  --icons-color: var(--color-gray-300);
+  --icons-hover-color: var(--color-gray-200);
+  --borders-color: var(--color-gray-400);
+  --background-secondary-color: var(--color-gray-500);
+  --background-primary-color: var(--color-gray-600);
+
+  @media (prefers-color-scheme: dark) {
+    --color-gray-100: rgba(255, 255, 255, 0.9);
+    --color-gray-200: rgba(255, 255, 255, 0.7);
+    --color-gray-300: rgba(255, 255, 255, 0.4);
+    --color-gray-400: rgba(255, 255, 255, 0.1);
+    --color-gray-500: #1c1c1c;
+    --color-gray-600: #111111;
+  }
+}
+
+html,
+body {
+  height: 100svh;
+  width: 100%;
+  background-color: var(--background-primary-color);
+
+  font-size: 16px;
+
+  #root {
+    height: 100%;
+    width: 100%;
+  }
+}
+
