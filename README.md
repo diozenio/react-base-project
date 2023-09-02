@@ -8,5 +8,5 @@
 - [ ] Criar uma estilização para textos
 - [ ] Criar o primeiro componente chamado `<Button />`
 - [ ] Melhorar a qualidade gráfica da aplicação
-- [ ] Fazer de componente
+- [ ] Fazer testes do componente `<Button />`
 - [ ] Fazer documentação para o componente `<Button />`
